@@ -1,0 +1,5 @@
+asciival = dict()
+alfapet = range(97,123)
+for i in alfapet:
+    asciival[chr(i)] = i
+print(asciival)
