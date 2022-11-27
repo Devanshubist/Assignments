@@ -1,0 +1,12 @@
+def sum(numbers):
+    
+    total = 0
+    for x in numbers:
+        total += x
+    return total
+lst = []
+size = int(input("Enter number of elements : "))
+for i in range(size):
+            ele = int(input())
+            lst.append(ele)
+print(sum(lst))
