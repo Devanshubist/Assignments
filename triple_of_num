@@ -1,0 +1,11 @@
+lst = []
+size = int(input("Enter number of elements in list for triple  : "))
+for i in range(size):
+            ele = int(input())
+            lst.append(ele)
+def triple(data):
+    return data+data+data
+
+result= map(triple,lst)    
+result= list(map(triple,lst) ) #changging the maped data into list   
+print(result)
