@@ -1,0 +1,4 @@
+from functools import reduce
+data =lambda data: data + 25
+any_num=int(input("enter a number to sum"))
+print(data(any_num))
