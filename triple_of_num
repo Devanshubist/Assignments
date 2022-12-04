@@ -4,8 +4,6 @@ for i in range(size):
             ele = int(input())
             lst.append(ele)
 def triple(data):
-    return data+data+data
-
-result= map(triple,lst)    
-result= list(map(triple,lst) ) #changging the maped data into list   
+    return data+data+data    
+result= list(map(triple,lst) )   
 print(result)
