@@ -1,10 +1,10 @@
 numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 cntodd = 0
 cnteven = 0
-for x in numbers:
-        if not x % 2:
-    	     cnteven+=1
-        else:
-    	     cntodd+=1
-print("Number of even numbers :",cnteven)
-print("Number of odd numbers :",cntodd)
+for i in numbers:
+    if i % 2 == 0:
+        cnteven+=1
+    else:
+        cntodd+=1
+print(cnteven)   
+print(cntodd) 
